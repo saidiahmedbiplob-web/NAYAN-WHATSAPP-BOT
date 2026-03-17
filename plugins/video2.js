@@ -5,7 +5,7 @@ module.exports = {
     version: "1.0.0",
     permission: 0,
     prefix: true,
-    credits: "Nayan",
+    credits: "Saidi",
     description: "Random video",
     category: "video",
     usages: [".video2"],
@@ -80,7 +80,7 @@ module.exports = {
 
 async function linkanh(choice) {
   const axios = require("axios");
-  const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json");
+  const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json");
   const n = apis.data.api;
   const options = {
     "1": "/video/love",

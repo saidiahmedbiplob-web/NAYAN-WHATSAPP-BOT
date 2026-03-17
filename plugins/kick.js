@@ -7,7 +7,7 @@ const isAdmin = global.isAdmin
       permission: 3,
       prefix: true,
       categorie: 'Moderation',
-      credit: 'Developed by Mohammad Nayan',
+      credit: 'Developed by Mohammad Saidi',
       description: 'Kicks a user from the group.',
       usages: [
         `${global.config.PREFIX}kick @username - Remove a tagged user from the group.`,

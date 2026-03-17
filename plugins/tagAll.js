@@ -7,7 +7,7 @@ module.exports = {
         description: 'Mentions all members of a group with stylish greetings.',
         categories: 'group',
         usages: [`${global.config.PREFIX}tagall [optional message]`],
-        credit: 'Developed by Mohammad Nayan'
+        credit: 'Developed by Mohammad Saidi'
     },
 
     start: async ({ event, api, args }) => {

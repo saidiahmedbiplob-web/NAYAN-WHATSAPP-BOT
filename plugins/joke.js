@@ -8,7 +8,7 @@ const axios = require('axios');
       prefix: true,
       description: 'Fetches a random dad joke from the internet.',
       category: 'Fun',
-      credit: 'Developed by Mohammad Nayan',
+      credit: 'Developed by Mohammad Saidi',
       usages: [`${global.config.PREFIX}joke`],
     },
 

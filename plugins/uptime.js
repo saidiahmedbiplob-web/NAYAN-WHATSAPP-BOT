@@ -7,7 +7,7 @@ module.exports = {
     prefix: true,
     description: "Check the bot's uptime.",
     categories: "Bot Management",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
   },
 
   start: async ({ api, event }) => {
@@ -47,7 +47,7 @@ module.exports = {
 ⏱ *Total:* *${uptime}*
 
 ━━━━━━━━━━━━━━━━━━━━━━
-🤖 *Bot Name:* ${global.config.botName || "Nayan Bot"}
+🤖 *Bot Name:* ${global.config.botName || "Saidi Bot"}
 🖥 *Engine:* ${cpuModel.split("CPU")[0].trim()}
 ⚙️ *CPU Load:* ${cpuLoad}
 📌 *Status:* Running Smoothly  

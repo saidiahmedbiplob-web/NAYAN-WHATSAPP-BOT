@@ -7,7 +7,7 @@ module.exports = {
     permission: 0,
     prefix: true,
     categorie: "Utility",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Shows or sets group rules.",
     usages: [
       `${global.config.PREFIX}rules - Shows current group rules.`,

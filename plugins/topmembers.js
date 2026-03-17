@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataFilePath = path.join(__dirname, '..', 'Nayan', 'data', 'messageCount.json');
+const dataFilePath = path.join(__dirname, '..', 'Saidi', 'data', 'messageCount.json');
 
 function loadMessageCounts() {
     if (fs.existsSync(dataFilePath)) {
@@ -67,7 +67,7 @@ module.exports = {
       `${global.config.PREFIX}top - Alias for the same functionality.`,
     ],
     categories: "Utility",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
   },
   event: async ({ event, api }) => {
     const { threadId, senderId, isGroup } = event;

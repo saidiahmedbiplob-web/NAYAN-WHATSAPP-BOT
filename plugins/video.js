@@ -46,7 +46,7 @@ async function downloadMusicFromYoutube(link, filePath) {
       description: 'Search and download video from YouTube.',
       usage: ['video <keyword> - Search and download videos from YouTube.'],
       categories: 'video',
-      credit: 'Developed by Mohammad Nayan',
+      credit: 'Developed by Mohammad Saidi',
     },
 
     start: async function ({ api, event, args}) {

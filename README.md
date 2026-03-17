@@ -1,11 +1,11 @@
 # 🤖 Saidi Bot
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3c00,100:00ffe7&height=250&section=header&text=SAIDI%20WHATSAPP%20BOT&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3c00,100:00ffe7&height=250&section=header&text=NAYAN%20WHATSAPP%20BOT&fontSize=45&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=welcome+To+SAIDI-WHATSAPP-BOT;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=welcome+To+NAYAN-WHATSAPP-BOT;" />
 </p>
 
 
@@ -18,10 +18,10 @@
 
 ### Step 1: Fork the Repository
 
-Click the button below to fork the Nayan WhatsApp Bot repository to your GitHub account:
+Click the button below to fork the Saidi WhatsApp Bot repository to your GitHub account:
 
 <div align="center">
-  <a href="https://github.com/saidiahmedbiplob-web/NAYAN-WHATSAPP-BOT/fork">
+  <a href="https://github.com/MOHAMMAD-NAYAN-07/NAYAN-WHATSAPP-BOT/fork">
     <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
   </a>
 </div>

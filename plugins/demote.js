@@ -5,7 +5,7 @@ module.exports = {
       permission: 3,
       prefix: 'both',
       categorie: 'Moderation',
-      credit: 'Developed by Mohammad Nayan',
+      credit: 'Developed by Mohammad Saidi',
       usages: [
         `${global.config.PREFIX}demote @user - Demotes the mentioned user from admin.`,
         `${global.config.PREFIX}down @user - Alias for the demote command.`,

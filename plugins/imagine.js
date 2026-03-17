@@ -11,7 +11,7 @@ module.exports = {
     description: 'Generate an image from a prompt using an external API.',
     categories: 'media',
     usages: ['.imagine <prompt>'],
-    credit: 'Developed by Mohammad Nayan'
+    credit: 'Developed by Mohammad Saidi'
   },
 
   start: async ({ event, api, args }) => {
@@ -25,7 +25,7 @@ module.exports = {
     const prompt = args.join(' ');
 
     try {
-      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json');
       const n = apis.data.api;
       const res = await axios.get(`${n}/nayan/img?prompt=${encodeURIComponent(prompt)}`);
 

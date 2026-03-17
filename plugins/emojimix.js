@@ -10,7 +10,7 @@ module.exports = {
     permission: 0,
     prefix: true,
     categories: "image",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Mix two emojis into one image",
     usages: [
       `${global.config.PREFIX}emojimix emoji1 | emoji2`,
@@ -32,7 +32,7 @@ module.exports = {
 
     try {
       const apiData = await axios.get(
-        "https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json"
+        "https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json"
       );
       const apiBaseURL = apiData.data.api;
       const filePath = path.join(cacheDir, `emix_${Date.now()}.png`);

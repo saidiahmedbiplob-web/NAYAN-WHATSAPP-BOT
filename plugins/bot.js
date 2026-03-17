@@ -8,7 +8,7 @@ module.exports = {
     prefix: "both",
     categorie: "AI Chat",
     cooldowns: 5,
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     usages: [
       `${global.config.PREFIX}bot <message> - Start a chat with the bot.`,
       `${global.config.PREFIX}bot - Receive a random greeting from the bot.`,
@@ -62,7 +62,7 @@ module.exports = {
 
     
     try {
-      const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json");
+      const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json");
       const apiss = apis.data.api;
 
       const response = await axios.get(
@@ -92,7 +92,7 @@ module.exports = {
     const { threadId, message, body, senderId } = event;
 
     try {
-      const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json");
+      const apis = await axios.get("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json");
       const apiss = apis.data.api;
 
       const response = await axios.get(

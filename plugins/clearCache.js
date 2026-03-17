@@ -62,7 +62,7 @@ module.exports = {
     permission: 2,
     prefix: true,
     categorie: "System",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Clear cache folder if host storage exceeds 500MB",
     usages: [`${global.config.PREFIX}clean`],
   },

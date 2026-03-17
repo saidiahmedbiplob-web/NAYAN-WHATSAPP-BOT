@@ -9,7 +9,7 @@ module.exports = {
     description: 'Resend quoted media (image, video, gif, audio) directly.',
     categories: 'Tools',
     usages: [`${global.config.PREFIX}vv (reply to media)`],
-    credit: 'Developed by Mohammad Nayan'
+    credit: 'Developed by Mohammad Saidi'
   },
 
   start: async ({ event, api }) => {

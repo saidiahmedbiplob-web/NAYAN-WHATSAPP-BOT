@@ -9,14 +9,14 @@ module.exports = {
     description: 'Interact with the Gemini API using a prompt.',
     categories: 'AI',
     usages: [`${global.config.PREFIX}gemini <your prompt>`],
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
   },
 
   start: async ({ event, api, args }) => {
     const { threadId,  getLink, message} = event;
 
     const result = await getLink(api, message);
-    const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json')
+    const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json')
     const n = apis.data.gemini
 
     

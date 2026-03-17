@@ -7,7 +7,7 @@ module.exports = {
         permission: 0,
         prefix: 'both',
         categorie: 'Fun',
-        credit: 'Developed by Mohammad Nayan',
+        credit: 'Developed by Mohammad Saidi',
         usages: [
             `${global.config.PREFIX}love 1 @mention - Create a love1 image with the mentioned user.`,
             `${global.config.PREFIX}love 2 @mention - Create a love2 image with the mentioned user.`,
@@ -46,7 +46,7 @@ module.exports = {
             const url1 = await api.profilePictureUrl(event.senderId, 'image');
             const url2 = await api.profilePictureUrl(targetId, 'image');
 
-            const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+            const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/refs/heads/main/api.json`)
 
             
             const apiURL = `${data.api3}/love${loveType}?url1=${encodeURIComponent(url1)}&url2=${encodeURIComponent(url2)}`;

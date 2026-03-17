@@ -12,7 +12,7 @@ module.exports = {
         description: "Upload a script file to Pastebin and send the links.",
         categories: "Utility",
         usages: [".sendfile <filename>", ".getfile <filename>"],
-        credit: "Developed by Mohammad Nayan"
+        credit: "Developed by Mohammad Saidi"
     },
 
     start: async function ({ api, event, args }) {

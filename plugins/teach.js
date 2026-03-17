@@ -9,7 +9,7 @@ module.exports = {
     description: 'Teach the bot to respond to specific messages.',
     categories: 'utility',
     usages: ['teach [ask] = [answer]'],
-    credit: 'Developed by Mohammad Nayan'
+    credit: 'Developed by Mohammad Saidi'
   },
 
   start: async ({ event, api, args }) => {
@@ -17,7 +17,7 @@ module.exports = {
 
     try {
       
-      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json');
       const teachBaseUrl = apis.data.sim;
 
       

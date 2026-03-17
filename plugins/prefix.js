@@ -6,7 +6,7 @@ module.exports = {
     permission: 0,
     prefix: "both",
     categorie: "Utility",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Displays or sets the bot's prefix.",
     usages: [
       `${global.config.PREFIX}prefix - Shows the current bot prefix.`,

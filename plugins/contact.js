@@ -5,9 +5,9 @@ module.exports = {
     permission: 2,
     prefix: 'both',
     categories: 'Utilities',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
     usages: [
-      `${global.config.PREFIX}contact - Send contact information for Mohammad Nayan.`,
+      `${global.config.PREFIX}contact - Send contact information for Mohammad Saidi.`,
     ]
   },
 
@@ -16,8 +16,8 @@ module.exports = {
 
     const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Mohammad Nayan\n'
-            + 'ORG:Nayan;\n'
+            + 'FN:Mohammad Saidi\n'
+            + 'ORG:Saidi;\n'
             + 'TEL;type=CELL;type=VOICE;waid=8801615298449:01615298449\n'
             + 'END:VCARD';
 
@@ -25,7 +25,7 @@ module.exports = {
       threadId,
       { 
         contacts: { 
-          displayName: 'Mohammad Nayan', 
+          displayName: 'Mohammad Saidi', 
           contacts: [{ vcard }] 
         }
       }

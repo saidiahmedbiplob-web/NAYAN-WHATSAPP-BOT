@@ -5,7 +5,7 @@ module.exports = {
     permission: 2,
     prefix: true,
     categorie: "Admin",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Manage group approval system.",
     usages: [
       `${global.config.PREFIX}approve status - Show approval system status`,

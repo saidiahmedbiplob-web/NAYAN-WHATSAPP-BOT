@@ -9,7 +9,7 @@ module.exports = {
     permission: 0,
     prefix: true,
     categorie: "video",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Fetches a random video or a video based on a query.",
     usages: [
       `${global.config.PREFIX}random - Fetches a random video.`,
@@ -31,7 +31,7 @@ module.exports = {
       });
 
     try {
-      const apiData = await getJSON("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json");
+      const apiData = await getJSON("https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json");
       const apiBaseURL = apiData.api;
 
       const fetchAndSend = async (videoData, res) => {

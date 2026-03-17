@@ -7,7 +7,7 @@ module.exports = {
     description: 'Send the profile picture of the mentioned user or yourself.',
     categories: 'media',
     usages: [`${global.config.PREFIX}profilepic`, `${global.config.PREFIX}profilepic @mention`],
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
   },
 
   start: async ({ event, api }) => {

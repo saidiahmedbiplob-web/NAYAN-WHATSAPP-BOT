@@ -12,7 +12,7 @@ module.exports = {
     permission: 2,
     prefix: 'both',
     categorie: 'Owner',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
     usages: [
       `${global.config.PREFIX}eval <code> - Evaluate JavaScript code.`,
     ],

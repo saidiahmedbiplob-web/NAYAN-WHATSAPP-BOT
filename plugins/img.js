@@ -13,7 +13,7 @@ module.exports = {
     description: "AI Image Tools",
     categories: "Tools",
     usages: [`${global.config.PREFIX}img (reply to image)`],
-    credit: "Developed by Mohammad Nayan"
+    credit: "Developed by Mohammad Saidi"
   },
 
   start: async ({ api, event }) => {
@@ -49,7 +49,7 @@ module.exports = {
     const form = new FormData();
     form.append("image", fs.createReadStream(filePath));
 
-    const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+    const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/refs/heads/main/api.json`)
 
     const upload = await axios.post(data.gemini+"/nayan/postimage", form, {
       headers: form.getHeaders()
@@ -88,7 +88,7 @@ Reply with *1–6*
     const waitMsg = await api.sendMessage(event.threadId, { text: "⏳ Processing image... Please wait..." }, { quoted: event.message });
 
     const option = event.body.trim();
-    const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+    const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/refs/heads/main/api.json`)
     
 
     const apiLinks = {

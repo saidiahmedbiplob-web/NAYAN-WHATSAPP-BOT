@@ -46,7 +46,7 @@ module.exports = {
     description: "Play a song directly from YouTube (first search result).",
     usage: [`${global.config.PREFIX}play <keyword> - Play song directly.`],
     categories: "Media",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
   },
 
 

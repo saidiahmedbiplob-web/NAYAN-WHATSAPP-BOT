@@ -7,7 +7,7 @@ module.exports = {
     permission: 0,
     prefix: 'both',
     categorie: 'Utilities',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
     usages: [`${global.config.PREFIX}info - Show admin and server information.`],
   },
   start: async ({ event, api, message }) => {

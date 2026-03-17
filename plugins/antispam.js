@@ -12,7 +12,7 @@ module.exports = {
       `${global.config.PREFIX}antispam on - Enable anti-spam`,
       `${global.config.PREFIX}antispam off - Disable anti-spam`
     ],
-    credit: "Developed by Mohammad Nayan"
+    credit: "Developed by Mohammad Saidi"
   },
 
   start: async ({ api, event, args }) => {

@@ -9,7 +9,7 @@ module.exports = {
     description: 'Randomly adds a name and URL to the mix.',
     usages: [`${global.config.PREFIX}rndmadd <name>`],
     categories: 'Utilities',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Mohammad Saidi',
   },
 
   start: async ({ event, api, args }) => {
@@ -23,7 +23,7 @@ module.exports = {
     const targetName = args.join(' ');
 
     try {
-      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/main/api.json');
       const apiUrl = apis.data.api;
 
       const result = await getLink(api, message);

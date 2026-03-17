@@ -9,7 +9,7 @@ module.exports = {
     description: "Send all my bot links and tutorials",
     categories: "Utility",
     usages: [".allbots"],
-    credit: "Developed by Mohammad Nayan"
+    credit: "Developed by Mohammad Saidi"
   },
 
   start: async ({ api, event }) => {
@@ -23,7 +23,7 @@ Link: https://github.com/MOHAMMAD-NAYAN-07/NAYAN-WHATSAPP-BOT
 Tutorial: https://youtu.be/hrO_v3z-Lq8
 
 💬 *Messenger Bot*
-Link: https://github.com/MOHAMMAD-NAYAN-07/Nayan-Bot
+Link: https://github.com/MOHAMMAD-NAYAN-07/Saidi-Bot
 Tutorial: https://youtu.be/DrQw3j56Llk
 
 🤖 *Telegram Bot*

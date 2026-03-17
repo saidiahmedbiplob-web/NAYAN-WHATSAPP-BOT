@@ -46,7 +46,7 @@ module.exports = {
     description: "Search and download songs from YouTube (converted to MP3).",
     usage: ["song <keyword> - Search and download songs from YouTube."],
     categories: "Media",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
   },
 
   

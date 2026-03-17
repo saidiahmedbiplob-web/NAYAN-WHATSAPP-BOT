@@ -1,7 +1,7 @@
 {
   "name": "NAYAN-WHATSAPP-BOT",
   "version": "1.1.5",
-  "description": "WhatsApp Bot Created by Mohammad Nayan",
+  "description": "WhatsApp Bot Created by Mohammad Saidi",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -23,7 +23,7 @@
     "nayanbot-whatsapp-bot",
     "github-whatsapp-bot"
   ],
-  "author": "Mohammad Nayan",
+  "author": "Mohammad Saidi",
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^10.0.1",

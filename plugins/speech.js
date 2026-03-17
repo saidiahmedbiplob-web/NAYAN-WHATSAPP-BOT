@@ -10,7 +10,7 @@ module.exports = {
     permission: 0,
     prefix: true,
     categorie: "utility",
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Mohammad Saidi",
     description: "Convert text to voice using nayan-api-servers or Google TTS",
     usages: [`${global.config.PREFIX}speech <text>`],
   },

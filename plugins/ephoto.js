@@ -9,7 +9,7 @@ module.exports = {
         description: 'Ephoto360 text effect generator',
         categories: 'image',
         usages: [`${global.config.PREFIX}ephoto`],
-        credit: 'Developed by Mohammad Nayan'
+        credit: 'Developed by Mohammad Saidi'
     },
 
     urls: [
@@ -101,7 +101,7 @@ module.exports = {
             msg += `${i + 1}. ${translated}\n`;
         }
 
-        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Nayan`;
+        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Saidi`;
 
         const sent = await api.sendMessage(event.threadId, { text: msg }, { quoted: message });
 
@@ -121,7 +121,7 @@ module.exports = {
         const parts = replyText.split(" ");
 
         if (parts.length < 2) {
-            return api.sendMessage(event.threadId, { text: "❌ Format ভুল\n👉 Example: 1 Nayan" }, { quoted: message });
+            return api.sendMessage(event.threadId, { text: "❌ Format ভুল\n👉 Example: 1 Saidi" }, { quoted: message });
         }
 
         const index = parseInt(parts[0]) - 1;
@@ -133,7 +133,7 @@ module.exports = {
 
         const effectUrl = this.urls[index];
 
-        const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+        const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Saidi/refs/heads/main/api.json`)
 
         try {
             const apiUrl = `${data.api3}/photo360?name=${encodeURIComponent(name)}&url=${encodeURIComponent(effectUrl)}`;
